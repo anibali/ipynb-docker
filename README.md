@@ -18,7 +18,7 @@ Bundled libraries:
 2. Run the install script `./install.sh`
 3. Make a note of the container ID output by the script. This can be used to
    stop IPython (`docker stop <id>`) and start it again later
-   (`docker start <id>`). On a clean terminal you will need to set the
+   (`docker start <id>`). Please note that you will need to set the
    environment variables as per `boot2docker shellinit` before issuing any
    Docker commands
 
@@ -35,7 +35,7 @@ Bundled libraries:
    `docker run -d -p 9321:8888 -v /path/to/notebooks:/notebooks ipynb`
    Make a note of the container ID output - this can be used to stop and
    start IPython Notebook as required
-7. Docker will now be running at <VM_IP>:9321, where VM_IP is the IP address
+7. Docker will now be running at VM_IP:9321, where VM_IP is the IP address
    output by `boot2docker ip`
 8. Use `docker stop <id>` and `docker start <id>` to stop and start IPython
    Notebook
