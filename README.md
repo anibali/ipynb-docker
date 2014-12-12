@@ -35,6 +35,6 @@ Bundled libraries:
    `docker run -d -p 9321:8888 -v /path/to/notebooks:/notebooks ipynb`
    Make a note of the container ID output - this can be used to stop and
    start IPython Notebook as required
-5. Docker will now be running at <VM_IP>:9321
-6. Use `docker stop <id>` and `docker start <id>` to stop and start IPython
+8. Docker will now be running at <VM_IP>:9321
+9. Use `docker stop <id>` and `docker start <id>` to stop and start IPython
    Notebook
